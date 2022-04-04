@@ -2,7 +2,7 @@ import java.util.Locale;
 
 public class uppg2 {
     public static void main(String[] args) {
-        String s = "mitt förnamn och efternamn";        //Reminder: gör att första bokstaven alltid blir liten bokstav oavsett om den är stor eller liten.
+        String s = "mitt förnamn och efternamn";        //Påminnelse: gör att första bokstaven alltid blir liten bokstav oavsett om den är stor eller liten.
 
         String camel = camelCase(s);
         System.out.println(camel);
